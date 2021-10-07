@@ -1,13 +1,240 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-    	<meta charset="utf-8">
-    	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    	<title>Propiedades</title>
- 	</head>
- 	<body>	
-  		<img src="media/descarga.jfif" height="80px" width="90px">
-  		<img src="media/descarga.jfif" height="80px" width="90px">
-  		<img src="media/descarga.jfif" height="80px" width="90px">
-	</body>
+  <head>
+  	<meta name="description" content="Realizamos todo tipo de acciones sobre los inmuebles, tasaciones, alquileres, compras, ventas">
+  	<meta name="keywords" content="ALQUILERES, VENTAS, COMPRAS, CASAS, DEPARTAMENTOS">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/estilos.css"/>
+    <title>Propiedades</title>
+  </head>
+  <body>	
+  		<div class="row">
+			<div class="col-7">
+				<nav class="navbar navbar-expand-lg navbar-light bg-light">
+					<div class="container-fluid">
+					    <a href="index.html" class="navbar-brand"></a><img src="media/descarga.jfif" height="80px" width="90px">
+					    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					    <span class="navbar-toggler-icon"></span>
+					    </button>
+					    <div class="collapse navbar-collapse" id="navbarNav">
+						    <ul class="navbar-nav">
+					      		<li class="nav-item">
+					          		<a class="nav-link" aria-current="page" href="index.html">Home</a>
+					        	</li>
+					        	<li class="nav-item">
+					          		<a class="nav-link" aria-current="page" href="alquileres.html">Alquileres</a>
+					        	</li>
+					        	<li class="nav-item">
+					          		<a class="nav-link" href="compras.html">Compras</a>
+					        	</li>
+					        	<li class="nav-item">
+					          		<a class="nav-link" href="asesoramientos.html">Asesoramientos</a>
+						        </li>
+						        <li class="nav-item">
+							        <a class="nav-link disabled"></a>
+						        </li>
+					    	</ul>
+					    </div>
+					  </div>
+					</nav>
+				</div>
+				<div class="col-2">
+					<button type="button" class="log btn btn-sm"><a href="ingreso.html">Ingreso</a></button>
+				</div>
+			</div>
+			<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+				<div class="carousel-indicators">
+				    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+				    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+				    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+				</div>
+				<div class="carousel-inner">
+				    <div class="carousel-item active">
+				      	<img src="media/slide1.jpg" class="d-block w-100" alt="ventas">
+				     	<div class="carousel-caption d-none d-md-block">
+				      		<h5>
+				        		<div class="col-12 text-center mt-30">
+								<form action="alquileres.html" method="post" target="_blank">
+  								<p class="elbusca">
+			     				<input type="search" name="busquedamusica" placeholder="Alquileres, ventas, loteos...">
+							    <input type="submit" value="Buscar">
+						  		</p>
+								</form>
+								</div>
+							</h5>
+				       		<h6>LAS MEJORES PROPIEDADES Y DEPARTAMENTOS.</h6>
+				     	</div>
+				    </div>
+				    <div class="carousel-item">
+				      <img src="media/slide2.jpg" class="d-block w-100" alt="compras">
+				      <div class="carousel-caption d-none d-md-block">
+				        <h5>
+				        	<div class="col-12 text-center mt-30">
+							<form action="alquileres.html" method="post" target="_blank">
+  							<p class="elbusca">
+			     			<input type="search" name="busquedamusica" placeholder="Alquileres, ventas, loteos...">
+						    <input type="submit" value="Buscar">
+						  	</p>
+							</form>
+							</div>
+						</h5>
+				        <h6>LO QUE BUSQUES LO MEJOR SIEMPRE.</h6>
+				      </div>
+				    </div>
+				    <div class="carousel-item">
+				      	<img src="media/slide3.jpg" class="d-block w-100" alt="alquileres">
+				      	<div class="carousel-caption d-none d-md-block">
+					        <h5>
+				        		<div class="col-12 text-center mt-30">
+									<form action="alquileres.html" method="post" target="_blank">
+  									<p class="elbusca">
+			     					<input type="search" name="busquedamusica" placeholder="Alquileres, ventas, loteos...">
+							    	<input type="submit" value="Buscar">
+							  		</p>
+									</form>
+								</div>
+							</h5>
+				        	<h6>SIEMPRE LAS MEJORES PROPIEDADES A SU DISPOSICION.</h6>
+		      			</div>
+		      		</div>
+				</div>
+				  	<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+				    	<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				    	<span class="visually-hidden"></span>
+				  	</button>
+				  	<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+				    	<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				    	<span class="visually-hidden"></span>
+					</button>
+				</div>
+  			</div>
+			</div>
+		</div>
+		<div class="text-center mb-3">
+			<h1>PROPIEDADES DESTACADAS</h1>
+		</div>	
+		<div>
+			<div class="row row1">
+				<div class="card" style="width: 18rem;">
+					<a href="compras.html"><img class="card-img-top img" src="media/casagrande.jpg" alt="casa grande" width="200px" height="150px" alt="Card image cap"></a>
+						<div class="card-body">
+					    	<h5 class="card-title">Casas</h5>
+					    	<p class="card-text">Disponemos de las mejores casas para su mejor eleccion.</p>
+						    <a href="compras.html" class="btn btn-primary">Ir a Casas</a>
+					  	</div>
+				</div>
+				<div class="card" style="width: 18rem;">
+					<a href="compras.html"><img class="card-img-top img" src="media/casagrande.jpg" alt="casa grande" width="200px" height="150px" alt="Card image cap"></a>
+						<div class="card-body">
+					    	<h5 class="card-title">Departamenos</h5>
+					    	<p class="card-text">Disponemos de los mejores departamentos para su mejor eleccion.</p>
+						    <a href="compras.html" class="btn btn-primary">Ir a Casas</a>
+					  	</div>
+				</div>
+				<div class="card" style="width: 18rem;">
+					<a href="alquileres.html"><img class="card-img-top img" src="media/casagrande.jpg" alt="casa grande" width="200px" height="150px" alt="Card image cap"></a>
+						<div class="card-body">
+					    	<h5 class="card-title">Alquileres</h5>
+					    	<p class="card-text">Disponemos de las mejores casas para su mejor eleccion.</p>
+						    <a href="compras.html" class="btn btn-primary">Ir a Casas</a>
+					</div>
+				</div>
+			</div>	
+		</div>
+	</div>
+		<footer class="text-center text-lg-start bg-light text-muted">
+			<section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+		    <div class="me-5 d-none d-lg-block">
+		    	<span>Contactese con nosotros por nuestras redes sociales:</span>
+		    </div>
+		    <div>
+		      	<a href="" class="me-4 text-reset">
+		        	<i class="fab fa-facebook-f"></i>
+		      	</a>
+		      	<a href="" class="me-4 text-reset">
+		        	<i class="fab fa-twitter"></i>
+		      	</a>
+			    <a href="" class="me-4 text-reset">
+			       <i class="fab fa-google"></i>
+			    </a>
+			    <a href="" class="me-4 text-reset">
+			        <i class="fab fa-instagram"></i>
+			    </a>
+			    <a href="" class="me-4 text-reset">
+			        <i class="fab fa-linkedin"></i>
+			    </a>
+			    <a href="" class="me-4 text-reset">
+			        <i class="fab fa-github"></i>
+			    </a>
+		    </div>
+  </section>
+		  <section class="">
+		    <div class="container text-center text-md-start mt-5">
+		      <div class="row mt-3">
+		        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+		          <h6 class="text-uppercase fw-bold mb-4">
+		            <i class="fas fa-gem me-3"></i>INmobiliaria xxxxxx
+		          </h6>
+		          <p>
+		            Somos una empresa que chamuyo chamuyo
+		          </p>
+		        </div>
+		        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+		          <h6 class="text-uppercase fw-bold mb-4">
+		            Servicios
+		          </h6>
+		          <p>
+		            <a href="alquileres.html" class="text-reset">Alquileres</a>
+		          </p>
+		          <p>
+		            <a href="compras.html" class="text-reset">Compras</a>
+		          </p>
+		          <p>
+		            <a href="asesoramientos.html" class="text-reset">Asesoramientos</a>
+		          </p>
+		          <p>
+		            <a href="contacto.html" class="text-reset">Contacto</a>
+		          </p>
+		        </div>
+		        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+		          <h6 class="text-uppercase fw-bold mb-4">
+		            Contact
+		          </h6>
+		          <p><i class="fas fa-home me-3"></i> Direccion de la empresa</p>
+		          <p>
+		            <i class="fas fa-envelope me-3"></i>
+		            info@ejemplo.com
+		          </p>
+		          <p><i class="fas fa-phone me-3"></i> numero de telefono</p>
+		        </div>
+		      </div>
+		    </div>
+		  </section>
+		  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+		    © 2021 Copyright
+		  </div>
+		</footer>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+
+    <script>
+    (function() {
+      'use strict';
+      window.addEventListener('load', function() {
+        var forms = document.getElementsByClassName('needs-validation');
+        var validation = Array.prototype.filter.call(forms, function(form) {
+          form.addEventListener('submit', function(event) {
+            if (form.checkValidity() === false) {
+              event.preventDefault();
+              event.stopPropagation();
+            }
+            form.classList.add('was-validated');
+          }, false);
+        });
+      }, false);
+    })();
+    </script>
+  </body>
 </html>
